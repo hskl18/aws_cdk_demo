@@ -12,6 +12,6 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 * `cdk deploy`      deploy this stack to your default AWS account/region
 * `cdk diff`        compare deployed stack with current state
 * `cdk synth`       emits the synthesized CloudFormation template
-* `docker build -t docker-image:test: .`   build
+* `docker run -p 9000:8080 docker-image:test`   run
 * `curl  "http://localhost:9000/2015-03-31/functions/function/invocations" -d '{}'` check if its working
 
